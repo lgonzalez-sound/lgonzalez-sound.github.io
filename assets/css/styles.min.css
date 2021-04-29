@@ -96,6 +96,22 @@
   }
 }
 
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+
 #animatedTextBackground {
   display: flex;
   flex-flow: column;
@@ -154,6 +170,95 @@
   text-align: left;
   margin-right: 0px;
   margin-left: -435px;
+}
+
+a {
+  color: #6d8de1;
+}
+
+#footer a:active, a:hover {
+  color: #fcf8f8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+.uk-link, a {
+  color: #1e87f0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.uk-link:hover, a:hover {
+  color: #0f6ecd;
+  text-decoration: underline;
+}
+
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+
+audio, canvas, img, video {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+img {
+  border-style: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+  display: block;
+}
+
+a, area, button, input, label, select, summary, textarea {
+  touch-action: manipulation;
+}
+
+a:focus, a:hover {
+  color: #0085A1;
+}
+
+.portfolio-box .portfolio-box-caption {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(103,26,139,0.68);
+  transition: all .2s;
+}
+
+a:hover {
+  color: #121212!important;
+  text-decoration: underline;
+}
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #671a8b;
+}
+
+a, a:hover {
+  color: #671a8b!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Open Sans,Helvetica Neue,Arial,sans-serif;
+  color: #fff;
 }
 
 #box-1 {
